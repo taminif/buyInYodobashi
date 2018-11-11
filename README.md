@@ -1,6 +1,6 @@
 # buyInYodobashi
 
-yodobashi.com で商品を購入するプログラムです。  
+[yodobashi.com](https://www.yodobashi.com) で商品を購入するプログラムです。  
 Headless Chrome, puppeteer を使用しています。
 
 ## 商品指定方法
@@ -26,7 +26,10 @@ npm install
 
 2. src/account.js にアカウント情報を設定します。
 
-3. local で実行します。
+事前に[yodobashi.com](https://www.yodobashi.com)で会員登録とクレジットカードを登録しておく必要があります。
+ID・PW・クレジットカードのセキュリティコードを設定します。
+
+3. 実行します。
 
 ```
 node index.js
